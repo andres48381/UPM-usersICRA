@@ -1,0 +1,4 @@
+ g++ -I /usr/include/mysql++/ -I /usr/include/mysql -c -o usersICRA.o usersICRA.cpp
+
+ g++ -o usersICRA usersICRA.o -lmysqlpp 
+
